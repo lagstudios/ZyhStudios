@@ -1,0 +1,13 @@
+{
+ "nombre": "ZYH ZVID",
+ "descripcion": "Convierte videos MP4 al formato .zvid de la pantalla del ZYHT32 e incluye un reproductor. Gratis.",
+ "orden": 6,
+ "gratis": true,
+ "compatible": [
+  "Windows",
+  "Linux"
+ ],
+ "zyhos": false,
+ "planes": [],
+ "extras": []
+}
