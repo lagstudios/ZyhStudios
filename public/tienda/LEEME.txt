@@ -1,0 +1,7 @@
+Medios de la tienda ZYHT32 (imágenes y videos reales de cada app).
+Por cada app crea una carpeta con su nombre corto:
+  public/tienda/<nombre-corto>/icono.png
+  public/tienda/<nombre-corto>/imagenes/*.png|jpg   (capturas reales)
+  public/tienda/<nombre-corto>/videos/*.mp4         (video de cómo se usa)
+Al desplegar salen solos en la página de la app. La app en sí (.zip) se sube desde Administrar > Tienda ZYHT32.
+Por ahora solo ZYH Studios publica; el dueño abre la tienda a creadores cuando ZYHT32 salga.

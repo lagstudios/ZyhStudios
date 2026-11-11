@@ -1,0 +1,38 @@
+{
+ "generado": "2026-11-11T23:39:58.069Z",
+ "pagos": {
+  "paypal_merchant_id": "N7J84DTBY8N4E"
+ },
+ "videos": {
+  "config": {
+   "titulo": "Mira ZYH en acción",
+   "autoplay": true,
+   "loop": true,
+   "muted": true
+  },
+  "items": [
+   {
+    "archivo": "ZYH_Como_comprar_y_descargar.mp4",
+    "titulo": "Cómo registrarte, comprar y descargar",
+    "url": "/videos/ZYH_Como_comprar_y_descargar.mp4"
+   },
+   {
+    "archivo": "ZYH_crecimiento.mp4",
+    "titulo": "Cómo crece ZYH",
+    "url": "/videos/ZYH_crecimiento.mp4"
+   },
+   {
+    "archivo": "ZYH_promo_web_precios_v1.mp4",
+    "titulo": "Planes y precios de ZyhStudios",
+    "url": "/videos/ZYH_promo_web_precios_v1.mp4"
+   },
+   {
+    "archivo": "ZYH_tutorial_whatsapp.mp4",
+    "titulo": "Tutorial: WhatsApp con ZYH Business",
+    "url": "/videos/ZYH_tutorial_whatsapp.mp4"
+   }
+  ]
+ },
+ "productos": [],
+ "tienda": {}
+}
