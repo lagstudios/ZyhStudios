@@ -1,0 +1,5 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://*.paypal.com https://*.paypalobjects.com; style-src 'self' 'unsafe-inline'; script-src 'self' https://www.paypal.com https://*.paypalobjects.com; frame-src https://www.paypal.com https://*.paypal.com; connect-src 'self' https://*.paypal.com https://*.paypalobjects.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self' https://*.paypal.com
