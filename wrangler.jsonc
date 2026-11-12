@@ -1,0 +1,17 @@
+{
+  // ZYH Web — configuración de Cloudflare Workers (plan gratis)
+  "name": "zyh-web",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-10-01",
+  // La web (carpeta public) se sirve gratis y sin límite; solo /api/* pasa por el servidor.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  // Base de datos D1. Se crea sola al desplegar (wrangler 4.45+). Si tu despliegue pide el ID,
+  // crea la base "zyh-web" en el panel y pega aquí:  "database_id": "EL-ID"
+  "d1_databases": [{ "binding": "DB", "database_name": "zyh-web" }],
+  "observability": { "enabled": true }
+}

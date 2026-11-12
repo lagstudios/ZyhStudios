@@ -1,0 +1,12 @@
+{
+ "titulo": "Mira ZYH en acción",
+ "autoplay": true,
+ "loop": true,
+ "muted": true,
+ "titulos": {
+  "ZYH_promo_web_precios_v1.mp4": "Planes y precios de ZyhStudios",
+  "ZYH_crecimiento.mp4": "Cómo crece ZYH",
+  "ZYH_tutorial_whatsapp.mp4": "Tutorial: WhatsApp con ZYH Business",
+  "ZYH_Como_comprar_y_descargar.mp4": "Cómo registrarte, comprar y descargar"
+ }
+}
