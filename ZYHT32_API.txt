@@ -1,0 +1,24 @@
+API de Zyphora (web <-> ZYHT32). Base: https://TU-WEB/api   -   La misma Cuenta ZYH en los dos lados.
+Con sesion: cabecera  Authorization: Bearer <token>   (la web usa cookie). Errores: codigo != 2xx y {"error":"texto"}.
+
+SESION
+  POST /register  /login  {"username","dk","client":"app","label":"ZYHT32"} -> {"token","user":{"username"}}
+       dk = PBKDF2-HMAC-SHA256, 200000 vueltas, sal "zyh-account:<usuario en minuscula>", 32 bytes en hex.
+  POST /zy/pair/claim {"code":"123456","label":"ZYHT32"} -> {"token","user"}   (codigo de 6 digitos que da la web: Zyphora > 🔗)
+  POST /logout
+
+PERFIL, TEMAS Y FONDOS
+  GET  /zy/me -> {"me":{username,name,descr,theme 0-7,fondo 0-8,wall 0-5,has_img},"chats":[...],"unread":N}
+  PUT  /zy/profile {name,descr,theme,fondo,wall,img?}     GET /zy/wallpaper -> {"img":"data:image/jpeg;base64,..."}
+
+MENSAJES  ("to" acepta "*" = sala, "usuario"/"@usuario" = privado, "grupo"/"#grupo" = grupo)
+  GET  /zy/poll?after=N -> {"messages":[{id,chat,from,text,at,voice?,dur?}],"last":N}
+  POST /zy/send {"to","text"}     (max 500 caracteres; ~30 por minuto)
+  GET  /zy/chat?key=%23grupo&after=N       POST /zy/contacts {"username"}   POST /zy/groups {"name"}
+  DELETE /zy/contacts/<u>   DELETE /zy/groups/<g>   DELETE /zy/msg/<id> (solo tus mensajes)
+
+NOTAS DE VOZ (MP3 mono 16 kHz 64 kbps, max 256 KB / 30 s, se guardan 14 dias)
+  POST /zy/voice?to=<destino>&dur=<seg>&mime=audio%2Fmpeg   cuerpo = bytes MP3 crudos  -> {"ok":true,"id":"abc123xy"}
+  GET  /zy/voice/<id>  -> audio/mpeg con Content-Length (solo participantes del chat; si no, 404)
+  En el poll el mensaje trae "voice":"<id>","dur":<seg> y text "nota de voz N s".
+Los mensajes se guardan cifrados (AES-GCM) en el servidor.
