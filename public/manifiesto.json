@@ -1,0 +1,449 @@
+{
+ "generado": "2026-11-21T20:21:15.727Z",
+ "pagos": {
+  "paypal_merchant_id": "N7J84DTBY8N4E"
+ },
+ "videos": {
+  "config": {
+   "titulo": "Mira ZYH en acción",
+   "autoplay": true,
+   "loop": true,
+   "muted": true
+  },
+  "items": [
+   {
+    "archivo": "ZYH_Como_comprar_y_descargar.mp4",
+    "titulo": "Cómo registrarte, comprar y descargar",
+    "url": "/videos/ZYH_Como_comprar_y_descargar.mp4"
+   },
+   {
+    "archivo": "ZYH_crecimiento.mp4",
+    "titulo": "Cómo crece ZYH",
+    "url": "/videos/ZYH_crecimiento.mp4"
+   },
+   {
+    "archivo": "ZYH_promo_web_precios_v1.mp4",
+    "titulo": "Planes y precios de ZyhStudios",
+    "url": "/videos/ZYH_promo_web_precios_v1.mp4"
+   },
+   {
+    "archivo": "ZYH_tutorial_whatsapp.mp4",
+    "titulo": "Tutorial: WhatsApp con ZYH Business",
+    "url": "/videos/ZYH_tutorial_whatsapp.mp4"
+   }
+  ]
+ },
+ "productos": [
+  {
+   "slug": "zyht32-ide",
+   "nombre": "ZYHT32 IDE",
+   "descripcion": "Programa y actualiza tu ZYHT32 en un clic. Gratis.",
+   "orden": 1,
+   "gratis": true,
+   "compatible": [
+    "Windows",
+    "Linux",
+    "Android"
+   ],
+   "zyhos": false,
+   "planes": [],
+   "extras": [],
+   "logo": "/productos/zyht32-ide/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_ZYHT32_IDE_1.0.zip",
+      "url": "/productos/zyht32-ide/1.0/paquete/ZYH_ZYHT32_IDE_1.0.zip",
+      "size": 322180,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/zyht32-ide/1.0/imagenes/logo.png"
+     ],
+     "videos": []
+    },
+    {
+     "version": "3.2",
+     "notas": "ZYHT32 IDE 3.2 para Android:\n- Programa tu ZYHT32 desde el celular.\n- Inicia sesión con tu cuenta ZYH y descarga las apps de la Tienda ZYHT32.\n- Administra la memoria SD y la sala LAN del ZYHT32 por Mi Web.",
+     "fecha": "2026-11-21",
+     "paquete": {
+      "nombre": "ZYHT32_IDE_3.2.0.apk",
+      "url": "/productos/zyht32-ide/3.2/paquete/ZYHT32_IDE_3.2.0.apk",
+      "size": 984481,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/zyht32-ide/3.2/imagenes/logo.png"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "business",
+   "nombre": "ZYH Business",
+   "descripcion": "Inventario, ventas, clientes, cotizaciones y una IA que atiende tu WhatsApp Business con tu stock real.",
+   "orden": 2,
+   "gratis": false,
+   "compatible": [
+    "Windows",
+    "Linux",
+    "Android"
+   ],
+   "zyhos": false,
+   "planes": [
+    {
+     "id": "pro",
+     "nombre": "Pro",
+     "usd": 4.62,
+     "dispositivos": "hasta 4 dispositivos",
+     "ciclo": "mes",
+     "boton": "CU6E38Q27P52Q",
+     "carrito": ""
+    },
+    {
+     "id": "vpro",
+     "nombre": "V-Pro",
+     "usd": 6.15,
+     "dispositivos": "hasta 9 dispositivos",
+     "ciclo": "mes",
+     "boton": "Z69YKLXUDHUFA",
+     "carrito": "F23QQK5KKV3KS"
+    },
+    {
+     "id": "vpro_plus",
+     "nombre": "V-Pro+",
+     "usd": 7.69,
+     "dispositivos": "10 o más dispositivos",
+     "ciclo": "mes",
+     "boton": "9EJT57A5AYTB4",
+     "carrito": "XFMPXW6ZWL6ZU"
+    }
+   ],
+   "extras": [
+    {
+     "id": "extra_vpro",
+     "nombre": "Equipo adicional V-Pro",
+     "usd": 1.54,
+     "carrito": "FX5CQVJ4DZN34"
+    },
+    {
+     "id": "extra_vpro_plus",
+     "nombre": "Equipo adicional V-Pro+",
+     "usd": 2.46,
+     "carrito": "QVQFKLPHR9J6N"
+    }
+   ],
+   "logo": "/productos/business/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_Business_1.0.zip",
+      "url": "/productos/business/1.0/paquete/ZYH_Business_1.0.zip",
+      "size": 352532,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/business/1.0/imagenes/01_inicio.jpg",
+      "/productos/business/1.0/imagenes/02_crear_empresa.jpg",
+      "/productos/business/1.0/imagenes/03_resumen.jpg",
+      "/productos/business/1.0/imagenes/04_clientes.jpg",
+      "/productos/business/1.0/imagenes/05_inventario.jpg",
+      "/productos/business/1.0/imagenes/06_ventas.jpg",
+      "/productos/business/1.0/imagenes/07_gastos.jpg",
+      "/productos/business/1.0/imagenes/08_cotizaciones.jpg",
+      "/productos/business/1.0/imagenes/09_tareas.jpg",
+      "/productos/business/1.0/imagenes/10_chat.jpg",
+      "/productos/business/1.0/imagenes/11_usuarios.jpg",
+      "/productos/business/1.0/imagenes/12_auditoria.jpg",
+      "/productos/business/1.0/imagenes/13_planes.jpg"
+     ],
+     "videos": []
+    },
+    {
+     "version": "1.5",
+     "notas": "Novedades 1.5:\n- App para celular Android (APK): inventario, ventas, escáner de códigos QR y de barras, pedidos y chat con tu negocio.\n- Entra con la misma cuenta ZYH de la web y del PC; el plan activo vale en el PC y en el celular.\n- Chat Zyphora Business entre el PC y los celulares, cifrado de extremo a extremo, con archivos, encuestas y pedidos.\n- Avisos de ZYH Studios en el Inicio y solicitudes de nuevas funciones o tipos de negocio.\n- Actualizaciones desde la propia app, con verificación de huella SHA-256.\n- Encuesta corta de opinión una vez por semana.",
+     "fecha": "2026-11-21",
+     "paquete": {
+      "nombre": "ZYH_Business_1.5.zip",
+      "url": "/productos/business/1.5/paquete/ZYH_Business_1.5.zip",
+      "size": 135996,
+      "otros": [
+       {
+        "nombre": "ZYH_Business_Android.apk",
+        "url": "/productos/business/1.5/paquete/ZYH_Business_Android.apk",
+        "size": 197988
+       },
+       {
+        "nombre": "ZYH_Business_PC.py",
+        "url": "/productos/business/1.5/paquete/ZYH_Business_PC.py",
+        "size": 187786
+       }
+      ]
+     },
+     "imagenes": [
+      "/productos/business/1.5/imagenes/01_inicio.jpg",
+      "/productos/business/1.5/imagenes/02_crear_empresa.jpg",
+      "/productos/business/1.5/imagenes/03_resumen.jpg",
+      "/productos/business/1.5/imagenes/04_clientes.jpg",
+      "/productos/business/1.5/imagenes/05_inventario.jpg",
+      "/productos/business/1.5/imagenes/06_ventas.jpg",
+      "/productos/business/1.5/imagenes/07_gastos.jpg",
+      "/productos/business/1.5/imagenes/08_cotizaciones.jpg",
+      "/productos/business/1.5/imagenes/09_tareas.jpg",
+      "/productos/business/1.5/imagenes/10_chat.jpg",
+      "/productos/business/1.5/imagenes/11_usuarios.jpg",
+      "/productos/business/1.5/imagenes/12_auditoria.jpg",
+      "/productos/business/1.5/imagenes/13_planes.jpg"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "compressor",
+   "nombre": "ZYH Compressor",
+   "descripcion": "Comprime con tres algoritmos y verifica cada archivo. Interfaz animada y tema personalizable.",
+   "orden": 3,
+   "gratis": false,
+   "compatible": [
+    "Windows",
+    "Linux"
+   ],
+   "zyhos": false,
+   "planes": [
+    {
+     "id": "pro",
+     "nombre": "Pro",
+     "usd": 4.62,
+     "dispositivos": "1 dispositivo",
+     "ciclo": "mes",
+     "boton": "2PM726G8G9HR4",
+     "carrito": ""
+    },
+    {
+     "id": "vpro",
+     "nombre": "V-Pro",
+     "usd": 7.69,
+     "dispositivos": "hasta 9 dispositivos",
+     "ciclo": "mes",
+     "boton": "P6H97LQAKT47E",
+     "carrito": "5TH5LY7776FL8"
+    },
+    {
+     "id": "vpro_plus",
+     "nombre": "V-Pro+",
+     "usd": 15.38,
+     "dispositivos": "10 o más dispositivos",
+     "ciclo": "mes",
+     "boton": "22HUJE4M3W4CJ",
+     "carrito": "CARPJZH3NXKCJ"
+    }
+   ],
+   "extras": [
+    {
+     "id": "extra_vpro",
+     "nombre": "Equipo adicional V-Pro",
+     "usd": 1.23,
+     "carrito": "4M488T34H2B5L"
+    },
+    {
+     "id": "extra_vpro_plus",
+     "nombre": "Equipo adicional V-Pro+",
+     "usd": 3.08,
+     "carrito": "TC8B9SN5HW8JN"
+    }
+   ],
+   "logo": "/productos/compressor/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.\nPlan Lite gratis: nivel de compresión 1, 5 usos o 5 días (una prueba por equipo). Después, Pro, V-Pro o V-Pro+.\nRequiere cuenta ZYH.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_Compressor_1.0.zip",
+      "url": "/productos/compressor/1.0/paquete/ZYH_Compressor_1.0.zip",
+      "size": 320880,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/compressor/1.0/imagenes/01_principal.jpg",
+      "/productos/compressor/1.0/imagenes/02_carpeta.jpg",
+      "/productos/compressor/1.0/imagenes/03_comprimiendo.jpg",
+      "/productos/compressor/1.0/imagenes/04_listo.jpg",
+      "/productos/compressor/1.0/imagenes/06_quiero_plan.jpg"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "bridged",
+   "nombre": "ZYH Bridged",
+   "descripcion": "Juega Minecraft en red con tus amigos, sin depender de un servidor ni de otros programas. Emparejamiento cifrado de extremo a extremo.",
+   "orden": 4,
+   "gratis": false,
+   "compatible": [
+    "Windows",
+    "Linux"
+   ],
+   "zyhos": false,
+   "planes": [
+    {
+     "id": "bridged",
+     "nombre": "Fin de semana con amigos",
+     "usd": 4.31,
+     "dispositivos": "hasta 4 dispositivos",
+     "ciclo": "fin de semana",
+     "boton": "FZUM3ENRALPEN",
+     "carrito": ""
+    },
+    {
+     "id": "bridged_on",
+     "nombre": "Bridged On",
+     "usd": 6.15,
+     "dispositivos": "hasta 8 dispositivos",
+     "ciclo": "fin de semana",
+     "boton": "RZ66KSQ865AF8",
+     "carrito": ""
+    },
+    {
+     "id": "bridged_server",
+     "nombre": "Bridged Server",
+     "usd": 18.46,
+     "dispositivos": "sin límite",
+     "ciclo": "fin de semana",
+     "boton": "995A9K57GYJV8",
+     "carrito": "",
+     "equipos": 999
+    }
+   ],
+   "extras": [],
+   "logo": "/productos/bridged/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_Bridged_1.0.zip",
+      "url": "/productos/bridged/1.0/paquete/ZYH_Bridged_1.0.zip",
+      "size": 325589,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/bridged/1.0/imagenes/01_jugar.jpg",
+      "/productos/bridged/1.0/imagenes/02_pairing.jpg",
+      "/productos/bridged/1.0/imagenes/03_red.jpg",
+      "/productos/bridged/1.0/imagenes/04_planes.jpg",
+      "/productos/bridged/1.0/imagenes/05_wifi.jpg",
+      "/productos/bridged/1.0/imagenes/06_opciones.jpg"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "browser",
+   "nombre": "ZYH Browser",
+   "descripcion": "Navegador ligero con pestañas, descargas y ajustes, sobre un motor de código abierto. Gratis.",
+   "orden": 5,
+   "gratis": true,
+   "compatible": [
+    "Windows",
+    "Linux"
+   ],
+   "zyhos": false,
+   "planes": [],
+   "extras": [],
+   "logo": "/productos/browser/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_Browser_1.0.zip",
+      "url": "/productos/browser/1.0/paquete/ZYH_Browser_1.0.zip",
+      "size": 313001,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/browser/1.0/imagenes/logo.png"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "zvid",
+   "nombre": "ZYH ZVID",
+   "descripcion": "Convierte videos MP4 al formato .zvid de la pantalla del ZYHT32 e incluye un reproductor. Gratis.",
+   "orden": 6,
+   "gratis": true,
+   "compatible": [
+    "Windows",
+    "Linux"
+   ],
+   "zyhos": false,
+   "planes": [],
+   "extras": [],
+   "logo": "/productos/zvid/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión pública.",
+     "fecha": "",
+     "paquete": {
+      "nombre": "ZYH_ZVID_1.0.zip",
+      "url": "/productos/zvid/1.0/paquete/ZYH_ZVID_1.0.zip",
+      "size": 307246,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/zvid/1.0/imagenes/logo.png"
+     ],
+     "videos": []
+    }
+   ]
+  },
+  {
+   "slug": "remote",
+   "nombre": "ZYH Remote",
+   "descripcion": "Mira y controla un teléfono Android desde otro, y pasa archivos. Por Wi-Fi, Bluetooth, USB o Internet, todo cifrado de extremo a extremo. Gratis.",
+   "orden": 7,
+   "gratis": true,
+   "compatible": [
+    "Android"
+   ],
+   "zyhos": false,
+   "planes": [],
+   "extras": [],
+   "logo": "/productos/remote/logo.png",
+   "versiones": [
+    {
+     "version": "1.0",
+     "notas": "Primera versión de ZYH Remote:\n- Ver y controlar otro teléfono Android, con video fluido y transferencia de archivos.\n- Conexión por Wi-Fi, Wi-Fi Direct, Bluetooth, BLE, cable USB o Internet.\n- Cifrado de extremo a extremo y aprobación del dueño del teléfono en cada sesión.\n- Por Internet usa el relay de ZYH Studios: solo reenvía datos cifrados y no puede ver tu pantalla.",
+     "fecha": "2026-11-21",
+     "paquete": {
+      "nombre": "ZYH_Remote_1.0.apk",
+      "url": "/productos/remote/1.0/paquete/ZYH_Remote_1.0.apk",
+      "size": 156863,
+      "otros": []
+     },
+     "imagenes": [
+      "/productos/remote/1.0/imagenes/logo.png"
+     ],
+     "videos": []
+    }
+   ]
+  }
+ ],
+ "tienda": {}
+}

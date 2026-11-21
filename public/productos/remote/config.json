@@ -1,0 +1,10 @@
+{
+ "nombre": "ZYH Remote",
+ "descripcion": "Mira y controla un teléfono Android desde otro, y pasa archivos. Por Wi-Fi, Bluetooth, USB o Internet, todo cifrado de extremo a extremo. Gratis.",
+ "orden": 7,
+ "gratis": true,
+ "compatible": ["Android"],
+ "zyhos": false,
+ "planes": [],
+ "extras": []
+}

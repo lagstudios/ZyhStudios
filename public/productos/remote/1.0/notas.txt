@@ -1,0 +1,5 @@
+Primera versión de ZYH Remote:
+- Ver y controlar otro teléfono Android, con video fluido y transferencia de archivos.
+- Conexión por Wi-Fi, Wi-Fi Direct, Bluetooth, BLE, cable USB o Internet.
+- Cifrado de extremo a extremo y aprobación del dueño del teléfono en cada sesión.
+- Por Internet usa el relay de ZYH Studios: solo reenvía datos cifrados y no puede ver tu pantalla.
