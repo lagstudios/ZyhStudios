@@ -1,0 +1,36 @@
+{
+ "business": {
+  "version": "1.10.0",
+  "versionCode": 21,
+  "releaseDate": "2026-11-23",
+  "pc": {
+   "version": "2.6.0 Plus",
+   "versionCode": 14
+  },
+  "changelog": [
+   "Tus chats son los mismos en ZYH Business, en Zyphora y en tus otros equipos: se sincronizan cifrados con tu cuenta ZYH.",
+   "Agrega gente por su usuario o su ID, sin pasar códigos; puedes aceptar, rechazar o bloquear invitaciones.",
+   "Llamadas de voz y videollamadas en el chat del negocio.",
+   "IA del negocio con memoria y paquete de «Atención al cliente».",
+   "Plan Gratuito: 1 dispositivo con inventario, ventas, clientes e IA del negocio (20 consultas al día).",
+   "Programa de PC 2.6.0 Plus (sin cambios en esta versión)."
+  ],
+  "downloads": {
+   "android": {
+    "url": "/productos/business/1.10/paquete/ZYH_Business_Android.apk",
+    "sha256": "e1dc0eeaada056a4570c6f436d085105ea9c7a3b998d8d5b40c6982269adc2a8",
+    "sizeBytes": 552346
+   },
+   "windows": {
+    "url": "/productos/business/1.10/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   },
+   "linux": {
+    "url": "/productos/business/1.10/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   }
+  }
+ }
+}
