@@ -1,4 +1,0 @@
-ZYHT32 IDE 3.2 para Android:
-- Programa tu ZYHT32 desde el celular.
-- Inicia sesión con tu cuenta ZYH y descarga las apps de la Tienda ZYHT32.
-- Administra la memoria SD y la sala LAN del ZYHT32 por Mi Web.

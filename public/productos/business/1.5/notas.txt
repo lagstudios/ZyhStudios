@@ -1,7 +1,0 @@
-Novedades 1.5:
-- App para celular Android (APK): inventario, ventas, escáner de códigos QR y de barras, pedidos y chat con tu negocio.
-- Entra con la misma cuenta ZYH de la web y del PC; el plan activo vale en el PC y en el celular.
-- Chat Zyphora Business entre el PC y los celulares, cifrado de extremo a extremo, con archivos, encuestas y pedidos.
-- Avisos de ZYH Studios en el Inicio y solicitudes de nuevas funciones o tipos de negocio.
-- Actualizaciones desde la propia app, con verificación de huella SHA-256.
-- Encuesta corta de opinión una vez por semana.
