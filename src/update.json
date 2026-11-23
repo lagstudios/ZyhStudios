@@ -1,0 +1,36 @@
+{
+ "business": {
+  "version": "1.9.0",
+  "versionCode": 20,
+  "releaseDate": "2026-11-23",
+  "pc": {
+   "version": "2.6.0 Plus",
+   "versionCode": 14
+  },
+  "changelog": [
+   "Llamadas de voz y videollamadas en el chat del negocio (también con quien usa Zyphora).",
+   "Chat compartido con Zyphora.",
+   "IA del negocio con memoria y paquete de «Atención al cliente».",
+   "Verificación en dos pasos dentro de la app con códigos de respaldo.",
+   "Plan Gratuito: 1 dispositivo con inventario, ventas, clientes e IA del negocio (20 consultas al día).",
+   "Programa de PC 2.6.0 Plus (sin cambios en esta versión)."
+  ],
+  "downloads": {
+   "android": {
+    "url": "/productos/business/1.9/paquete/ZYH_Business_Android.apk",
+    "sha256": "4067bbdbea629c22a7bf517120fa56d1a2cbde36ace885616e7ca27fd7e5604f",
+    "sizeBytes": 548250
+   },
+   "windows": {
+    "url": "/productos/business/1.9/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   },
+   "linux": {
+    "url": "/productos/business/1.9/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   }
+  }
+ }
+}
