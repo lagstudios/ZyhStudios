@@ -1,0 +1,58 @@
+{
+ "business": {
+  "version": "1.12.0",
+  "versionCode": 23,
+  "releaseDate": "2026-11-23",
+  "pc": {
+   "version": "2.6.0 Plus",
+   "versionCode": 14
+  },
+  "changelog": [
+   "ZYH Noticias: avisos de ZYH Studios dentro del chat.",
+   "Centro de propuestas: cuéntanos qué mejorar y lo revisa el equipo.",
+   "Tus chats son los mismos en ZYH Business, en Zyphora y en tus otros equipos.",
+   "Agrega gente por su usuario o su ID; aceptas, rechazas o bloqueas invitaciones.",
+   "Llamadas de voz y videollamadas en el chat del negocio.",
+   "Plan Gratuito: 1 dispositivo con inventario, ventas, clientes e IA del negocio.",
+   "Programa de PC 2.6.0 Plus (sin cambios en esta versión)."
+  ],
+  "downloads": {
+   "android": {
+    "url": "/productos/business/1.12/paquete/ZYH_Business_Android.apk",
+    "sha256": "fc0f61366ec65e6e4ee4ac177c6b6cb55bb53860edd0ed0418bd3742639fe158",
+    "sizeBytes": 560538
+   },
+   "windows": {
+    "url": "/productos/business/1.12/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   },
+   "linux": {
+    "url": "/productos/business/1.12/paquete/ZYH_Business_PC.py",
+    "sha256": "986ded24c291ee396d80852dc3b7fff462f773c0ede35084788329f0fb9c1b24",
+    "sizeBytes": 472569
+   }
+  }
+ },
+ "zyphora": {
+  "version": "1.6.0",
+  "versionCode": 7,
+  "releaseDate": "2026-11-23",
+  "changelog": [
+   "ZYH Noticias: avisos de ZYH Studios dentro de la app.",
+   "Centro de propuestas: cuéntanos qué mejorar y lo revisa el equipo.",
+   "Aviso cuando hay una versión nueva de Zyphora.",
+   "Tus chats son los mismos en Zyphora, en ZYH Business y en tus otros equipos.",
+   "Agrega gente por su usuario o su ID; aceptas, rechazas o bloqueas invitaciones.",
+   "Llamadas de voz y videollamadas, también en grupo (hasta 8 personas).",
+   "Gratis, sin anuncios."
+  ],
+  "downloads": {
+   "android": {
+    "url": "/productos/zyphora/1.6/paquete/Zyphora_1.6.0.apk",
+    "sha256": "a15478c8d5821e0c26b7e0f1f711c2d641c2fef6aec4d89402631819df7e3bb5",
+    "sizeBytes": 433492
+   }
+  }
+ }
+}
